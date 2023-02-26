@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Parallel elements in MB -->
+        <div class="mainbody">
+            <div class="topnav">
+                <img src="./img/leaf.png" id="leaf" alt="leaf">
+                <h1><strong>EasyBay</strong> </h1>
+                <input type="text" class="searchbar" placeholder="Search for anything">
+                <h3>Sign In</h3>
+                <img src="./img/cart-dark.png" class="shoppingcart" onclick="alert('Your cart is empty')" alt="cart">
+            </div>
+            <div class="links">
+                <h4>Wolverine</h4>
+                <h4>Colossus</h4>
+                <h4>Professor X</h4>
+                <h4>Jean Grey</h4>
+                <h4>Beast</h4>
+                <h4>Gambit</h4>
+                <h4>More...</h4>
+            </div>
+            <div class="Adtitle">
+                <br>
+                <h1>Your Source for Serious Badass Mutant plants</h1>
+            </div>
+            <div class="midcolumns">
+                 <div class="columnl">
+                    <div class="leftwords">
+                        <div class="lefttoptext">
+                        <h3>Discover succulent varieties one pot or rack at a time</h3>
+                    <br>
+                        </div>
+                        <div class="leftboxb"> 
+                        <h3><strong>Discover</strong><img src="./img/arrow-light.png" id="arrow" alt="arrow"></h3> 
+                    
+                    </div>
+                    </div>
+                    <div class="bigpic" id="bigpic">
+                    <img onmouseover="changetoech(this)" onmouseout="changetoaloe(this)" src="./img/succulents-1.jpg" alt="bigcactus" id="bigcactus">
+                    </div>                 
+                </div>
+            <div class="columnr">
+                <img src="./img/aeonium-s.jpg" alt="aeon" class="pictopright">
+                <div class="wordsbelowaloe">
+                    <h3>Soothing Aloe</h3>
+                    <img src="./img/arrow-light.png" alt="arrow">
+                </div>
+            </div>
+            </div>
+            
+            <!-- bot pics -->
+            <div class="botrow">
+            <div class="botpics">
+                <img src="./img/aloe-m.jpg" alt="aloem" class="botplants first">
+                <h4>Wolverine</h4>
+                
+            </div>
+            <div class="botpics">
+                <img src="./img/aloe-s.jpg" alt="aloes" id="aloe" class="botplants">
+                <h4>Colossus</h4>
+                
+            </div>
+            <div class="botpics">
+                <img src="./img/cactus-s.jpg" alt="cactus" class="botplants">
+                <h4>Professor X</h4>
+
+            </div>
+            <div class="botpics">
+                <img src="./img/echeveria-s.jpg" alt="ech" id="bigred" class="botplants">
+                <h4>Jean Grey</h4>
+                
+            </div>
+            <div class="botpics">
+                <img src="./img/sedum-s.jpg" alt="sedum" class="botplants">
+                <h4>Beast</h4>
+                
+            </div>
+            <div class="botpics">
+                <img src="./img/sempervivum-s.jpg" alt="semper" class="botplants last">
+                <h4>More</h4>
+                
+            </div>
+        </div>
+            <!-- Position box -->
+            <div class="acceptbox">
+                <img src="./img/alert-dark.png" alt="alert" class="alert">
+                <h4>This site makes use of third-party cokies, by clicking "I accept"
+                    <br>you agree to the terms outline in our <span>cookie policy.</span></h4>
+                <button onclick="makeboxdisappear(this)" id="accept">I accept </button>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

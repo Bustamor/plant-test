@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 970px;
+    background-color: antiquewhite;
+}
+.mainbody {
+    background-color: rgb(249, 216, 216);
+    padding: 0px 100px;
+}
+/* Navbar */
+.topnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+#leaf{
+    background-color: rgb(37, 172, 91);
+    height: 30px;
+}
+.searchbar{
+    height: 40px;
+    width: 350px;
+    border-radius: 35%;
+}
+
+.shoppingcart{
+    height: 30px;
+}
+/* Links Row */
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+.Adtitle{
+text-align: center;
+margin-bottom: 20px;
+}
+/* Mid Columns */
+.midcolumns{
+    display: flex;
+    padding: 20px;
+    
+
+}
+/* left column */
+.columnl{
+    flex: 2;
+display: flex;
+padding-right: 10px;
+}
+.leftwords{
+text-align: center;
+text-overflow: clip;    width: 150px;
+background-color: green;
+padding: 20px;
+border-radius: 3px;
+}
+#arrow{
+    height: 20px;
+    vertical-align: middle;
+}
+/* Columnr */
+
+.pictopright{
+    height: 147px;
+    width: 250px;
+}
+
+.columnr{
+}
+
+.wordsbelowaloe{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+/* Botplants row */
+.botrow{
+    display: flex;
+    justify-content: stretch;
+    margin: 0px 20px;
+    text-align: center;
+    background-color: green;
+    padding: 5px 0px;
+}
+
+.botplants{
+    height: 95px;
+    width: 95px;
+    margin: 5px 13px;
+    border-radius: 50%;
+}
+
+/* Position box
+ */
+.acceptbox{
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: auto;
+    position: relative;
+    bottom: 50px;
+    background-color: gray;
+    
+} 
+    span{  
+    text-decoration: underline;
+    color: rgb(55, 77, 178);
+ }
+ #accept{
+padding: 1px 5px;
+background-color: greenyellow;
+ }
+ .alert{
+    height: 40px;
+ }
+
+#bigcactus{
+    width: 200px;
+}
